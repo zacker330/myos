@@ -75,3 +75,5 @@ Mkfile.old
 dkms.conf
 
 **/system.img
+**/boot.bat
+.idea

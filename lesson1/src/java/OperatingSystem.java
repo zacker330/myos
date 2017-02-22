@@ -69,6 +69,6 @@ public class OperatingSystem {
 
     public static void main(String[] args) {
         OperatingSystem op = new OperatingSystem("hello, this is my first line of my operating system code");
-        op.makeFllopy();
+        op.getSystemImgByteArray();
     }
 }
