@@ -77,3 +77,5 @@ dkms.conf
 **/system.img
 **/boot.bat
 .idea
+**/javac-services.*.log
+**/javac-services.0.log.lck
