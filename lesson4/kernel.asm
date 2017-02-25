@@ -8,7 +8,7 @@ entry:
     mov  si, msg
 
 
- putloop:
+putloop:
     mov  al, [si]
     add  si, 1
     cmp  al, 0
@@ -22,6 +22,5 @@ fin:
     HLT
     jmp  fin
 
-  msg:
-
-     DB   "This is Hello World from kernel"
+msg:
+    DB   "This is Hello World from kernel"

@@ -75,7 +75,7 @@ Mkfile.old
 dkms.conf
 
 **/system.img
-**/boot.bat
+**/*.bat
 .idea
 **/javac-services.*.log
 **/javac-services.0.log.lck

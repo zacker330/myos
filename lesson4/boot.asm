@@ -1,6 +1,6 @@
 org  0x7c00;
 
-LOAD_ADDR  EQU  0X8000
+LOAD_ADDR  EQU  0x8000
 
 entry:
     mov  ax, 0
@@ -25,8 +25,6 @@ readFloppy:
     JC           fin
 
     jmp          LOAD_ADDR
-
-
 
 fin:
     HLT
